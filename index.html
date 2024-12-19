@@ -6,7 +6,10 @@
     <meta name="keyword" content="web Developer, ui/ux designer, graphics designer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/Haruna.png" type="image/x-icon">
+
+    <!-- bootstrap cdn link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
     <title>Haruna Zakaria - Personal Webpage</title>
     <link rel="stylesheet" href="style.css">
     <!-- Google tag (gtag.js) -->
@@ -18,94 +21,187 @@
 
       gtag('config', 'G-E60QKXQJDN');
     </script>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg fixed-top bg-primary navbar-dark">
-      <a class="navbar-brand" href="#">Harunzy</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div class="header">
-      <img src="images/Haruna.png" alt="Haruna Profile Picture">
-      <h1>Haruna Zakaria</h1>
-      <p> <em>Founder and<strong><a href="#"> CEO of Harunzy Tech </a></strong></em></p> 
-      <p>I'm a web developer based in <strong>Tamale, Ghana</strong> and I have a passion for web development and love turning ideas into products through code!</p><hr size="3" noshade>
-    </div>
-    <div class="content">
-      <div>
-        <h2>Education</h2>
-        <ul>
-          <li>Tamale College of Education</li>
-          <li>Savelugu Senior High School</li>
-        </ul>
-      </div>
-      <div>
-        <h2>My Skills</h2>
-        <ul>
-          <li>HTML</li>
-          <li>Css</li>
-          <li>Javascript</li>
-          <li>Git</li>
-          <li>WordPress</li>
-          <li>UI/UX Design</li>
-          <li>Graphic Design</li>
-        </ul>
-      </div>
-      <div>
-        <h3>My Hobbies</h3>
-        <ol>
-          <li>Reading</li>
-          <li>Writing</li>
-          <li>Listening to music</li>
-        </ol>
-      </div>
-      <div>
-        <h3><a href="contact.html"> Contact me</a></h3>
-      </div>
-      <div>
-        <h3><a href="project.html">My Projects</a></h3>
-      </div>
-      <div>
-        <h2>Follow me on social media</h2>
-        <div>
-          <p>let us connect on social medial</p>
-          <ul>
-            <li><a href="https://www.linkedin.com/in/haruna-zakaria-b897241b6/" target="_blank">linkedin</a></li>
-            <li><a href="https://www.twitter.com/Harunzakaria0" target="_blank">Twitter/X</a></li>
-            <li><a href="#" target="_blank">Facebook</a></li>
-            <li><a href="#" target="_blank">Instagram</a></li>
-            <li><a href="https://github.com/HarunaZakaria" target="_blank">Github</a></li>
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href="">Harunzy</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
           </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6 intro">
+          <h1>Hi!, I am Haruna Zakaria</h1>
+          <p>I'm a web developer based in <strong>Tamale, Ghana</strong> and I have a passion for web development and love turning ideas into products through code!</p>
+          <div class="col-lg-6 connect">
+            <p>let's connect <i class="fa-solid fa-arrow-right"></i></p>
+            <div>
+              <i class="fa-brands fa-square-x-twitter fa-1x social-icons"></i>
+              <i class="fa-brands fa-linkedin fa-1x social-icons"></i>
+              <i class="fa-brands fa-square-facebook fa-1x social-icons"></i>
+              <i class="fa-brands fa-github fa-1x social-icons"></i>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img class="tittle-image" src="images/Haruna.png" alt="profile picture">
         </div>
       </div>
     </div>
-    <div class="footer">
-      <footer>
-        <p>&copy; 2023 Haruna Zakaria. All rights reserved.</p>
-      </footer>
-    </div>
+  </section>
 
-    <!-- font awesome link -->
-    <script src="https://kit.fontawesome.com/45b40e9ff3.js" crossorigin="anonymous"></script>
+
+  <!-- Skills Seection -->
+
+  <section id="Skills">
+    <div class="row">
+        <div class="col-lg-6 skills">
+            <h2>My Skills</h2>
+        </div>
+    </div>
+    <div class="row">
+      <div class="skill-box col-lg-3 col-md-6">
+        <h3>HTML</h3>
+        <i class="fa-brands fa-html5 fa-4x"></i>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
+      <div class="skill-box col-lg-3 col-md-6">
+        <h3>CSS </h3>
+        <i class="fa-brands fa-css3-alt fa-4x"></i>
+        <p>We have all the dogs, the greatest dogs.</p>
+      </div>
+      <div class="skill-box col-lg-3 col-md-6">
+        <h3>JAVASCRIPT</h3>
+        <i class="fa-brands fa-js fa-4x"></i>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
+      <div class="skill-box col-lg-3 col-md-6">
+        <h3>BOOTSTRAP</h3>
+        <i class="fa-brands fa-bootstrap fa-4x"></i>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
+      <div class="skill-box col-lg-3 col-md-6">
+        <h3>GIT & GITHUB</h3>
+        <i class="fa-brands fa-git-alt fa-4x"></i>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
+      <div class="skill-box col-lg-3 col-md-6">
+        <h3>SQL</h3>
+      <i class="fa-solid fa-database fa-4x"></i>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
+      <div class="skill-box col-lg-3 col-md-6">
+        <h3>REACT JS</h3>
+        <i class="fa-brands fa-react fa-4x"></i>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
+      <div class="skill-box col-lg-3 col-md-6">
+        <h3>NODE JS</h3>
+        <i class="fa-brands fa-node fa-4x"></i>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hobbies Secetion -->
+
+  <section id="hobby">
+    <div class="row">
+        <div class="col-lg-6 hobbies">
+            <h2>My Hobbies</h2>
+        </div>
+    </div>
+    <div class="row">
+      <div class="hobby-box col-lg-3 col-md-6">
+        <h3>Reading</h3>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
+      <div class="hobby-box col-lg-3 col-md-6">
+        <h3>Listening to music</h3>
+        <p>We have all the dogs, the greatest dogs.</p>
+      </div>
+      <div class="hobby-box col-lg-3 col-md-6">
+        <h3>Writing</h3>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
+      <div class="hobby-box col-lg-3 col-md-6">
+        <h3>Writing</h3>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
+    </div>
+  </section>
+
     
-    <!--this is a javascript from bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+  <!-- Get intouch section -->
+
+  <section id="intouch">
+    <div class="row">
+        <div class="col-lg-6 intouches">
+            <h2>Tell Me About Your Next Project</h2>
+            <p>You need an asistants with your project or need somebody to hire for your current project! hit me up</p>
+        </div>
+    </div>
+    <div class="row">
+      <div class="intouch-box col-lg-6">
+        <button class="btn btn-secondary"><i class="fa-solid fa-envelope"></i> Email Me</button>
+      </div>
+      <div class="intouch-box col-lg-6">
+        <button class="btn btn-outline-secondary"><i class="fa-brands fa-whatsapp"></i> What'sApp</button>
+      </div>
+    </div>
+  </section>
+
+ <!-- Footer  Section-->
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 All rights reserved.</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-square-x-twitter fa-1x social-icons"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-linkedin fa-1x social-icons"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-square-facebook fa-1x social-icons"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-whatsapp fa-1x social-icons"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa-brands fa-telegram fa-1x social-icons"></i></a></li>
+      </ul>
+    </footer>
+  </div>
+ 
+
+  <!-- font awesome script -->
+  <script src="https://kit.fontawesome.com/45b40e9ff3.js" crossorigin="anonymous"></script>
+
+  <!--bootstrap javascript here-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </html>
