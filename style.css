@@ -103,9 +103,6 @@ p{
 }
 
 /* Hobbies Section */
-#hobby{
-  padding: 7% 15%;
-}
 .hobbies{
   margin: 0 auto;
   text-align: center;
@@ -114,11 +111,13 @@ p{
   text-align: center;
   padding: 5%;
 }
-
+.hobbies-carousel{
+  padding: 7% 15%;
+}
 
 /* Get intouch section  */
 #intouch{
-  padding: 0 15% 7% 15%;
+  padding: 7% 15%;
 }
 .intouches{
   margin: 0 auto;
