@@ -57,7 +57,7 @@ p{
 .social-icons{
   width: 1.5rem;
   margin-top: 0.6rem;
-  color: #fff;
+  color:#fff ;
 }
 .tittle-image{
   width: 80%;
@@ -134,4 +134,5 @@ p{
 }
 .footer{
   padding: 7% 15%;
+  background-color: #3498db;;
 }
