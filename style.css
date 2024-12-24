@@ -10,6 +10,7 @@ h1{
 }
 h3{
   font-weight: bold;
+  color: #3498db;
 }
 p{
   color: #8f8f8f;
@@ -114,7 +115,10 @@ p{
 .hobbies-carousel{
   padding: 0 15%;
 }
-
+.icons{
+  color: #3498db;
+  padding-bottom: 3%;
+}
 /* Get intouch section  */
 #intouch{
   padding: 7% 15%;
