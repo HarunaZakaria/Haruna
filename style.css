@@ -132,7 +132,11 @@ p{
   text-align: center;
   padding: 5%;
 }
-.footer{
+#footer{
   padding: 7% 15%;
-  background-color: #3498db;;
+  background-color: #3498db;
+  text-align: center;
+}
+.copy-right{
+  color: #fff;
 }
