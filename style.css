@@ -61,11 +61,8 @@ p{
 }
 .tittle-image{
   width: 80%;
+  border-radius: 10px;
 }
-.tittle-image:hover{
-  transform: rotate(5deg);
-}
-
 /* Skills Section */
 #Skills{
   padding: 5% 0;
