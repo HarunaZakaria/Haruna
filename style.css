@@ -137,3 +137,8 @@ p{
 .copy-right{
   color: #fff;
 }
+@media(max-width: 991px) {
+  .intro-beginn{
+    text-align: center;
+  }
+}
