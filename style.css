@@ -50,7 +50,7 @@ p{
 }
 .connect p{
   text-align: center;
-  background-color:  #192ac9;
+  text-decoration: underline 4px;
   padding: 0.5rem;
   border-radius: 0.5rem;
 }
@@ -72,26 +72,6 @@ p{
   margin: 0 auto;
   text-align: center;
 }
-/* .carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 100px;
-  width: 100px;
-  background-size: 100%, 100%;
-  background-image: none;
-}
-.carousel-control-prev-icon::after{
-  content: '<';
-  font-size: 55px;
-  color: #3498db;
-}
-
-.carousel-control-next-icon::after{
-  content: '>';
-  font-size: 55px;
-  color: #3498db;
-} */
-
-
 .skill-box{
   text-align: center;
   padding: 5%;
