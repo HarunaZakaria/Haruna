@@ -141,4 +141,8 @@ p{
   .intro-beginn{
     text-align: center;
   }
+  .footer-text{
+    display:flex;
+    flex-direction: column-reverse;
+  }
 }
